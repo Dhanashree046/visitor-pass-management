@@ -15,8 +15,8 @@ function App() {
 
   const fetchVisitors = async () => {
     const res = await axios.get(
-      "http://localhost:5000/api/visitors"
-    );
+  "https://visitor-pass-management-yx58.onrender.com/api/visitors"
+);
 
     setVisitors(res.data);
 

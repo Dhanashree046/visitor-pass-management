@@ -23,9 +23,9 @@ const submit = async (e) => {
   console.log(form);
 
   await axios.post(
-    "http://localhost:5000/api/visitors",
-    form
-  );
+  "https://visitor-pass-management-yx58.onrender.com/api/visitors",
+  form
+);
 
   setForm({
   name: "",
