@@ -152,9 +152,7 @@ button:hover {
 
     background:
     linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
-        url("C:\Users\DELL\OneDrive\Desktop\visitor-pass-management\client\public\bg.jfif");
-
-
+url("/bg.jfif");
     background-size:cover;
 
     background-position:center;
