@@ -152,7 +152,7 @@ button:hover {
 
     background:
     linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
-url("/bg.jfif");
+url("../public/bg.jfif");
     background-size:cover;
 
     background-position:center;
